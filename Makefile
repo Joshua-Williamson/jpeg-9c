@@ -265,7 +265,7 @@ AUTOMAKE = ${SHELL} /home/ubuntu/NCC_FUZZ/NEUZZ_prog_sourcecode/jpeg-9c/missing 
 AWK = gawk
 CC = afl-gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -static -m32 -mtune=generic -march=i686 -g -O2 -O3 -funroll-loops -fstack-protector-strong
+CFLAGS = -static  -mtune=generic -g -O2 -O3 -funroll-loops -fstack-protector-strong
 CPP = gcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
@@ -288,7 +288,7 @@ INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JPEG_LIB_VERSION = 12:0:3
 LD = /usr/bin/ld -m elf_x86_64
-LDFLAGS = -m32 
+LDFLAGS =  
 LIBOBJS = 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
